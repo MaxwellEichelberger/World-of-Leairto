@@ -1,0 +1,91 @@
+body {
+    background-image: url("./images/background.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header {
+
+    color: white;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40vh;
+    text-align: center;
+    padding: 5%;
+}
+
+.header img{
+    margin-right: 0%;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.main-body {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.main-body h1{
+    text-align: center;
+    margin: 0px;
+}
+
+.main-body div {
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%
+}
+
+.main-body div h2 {
+    border-bottom: solid black;
+    border-width: 1px;
+
+}
+
+.character {
+    position: inline-block;
+    float: right;
+    background-color: white;
+    width: 20%;
+    border-right: solid black;
+    border-left:solid black;
+    border-bottom: solid black;
+    border-width: 1px;
+}
+
+.character h2 {
+    position: inline-block;
+    padding-top: 3%;
+    color: white;
+    background-color: grey;
+    text-align: center;
+    margin: 0%;
+    border-top: solid black;
+    border-width: 1px;
+}
+
+.character img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+#pic-desc {
+    text-align: center;
+    font-style: italic;
+    padding: 0%;
+}
+
+
+footer {
+    float: right;
+    color: white;
+}
