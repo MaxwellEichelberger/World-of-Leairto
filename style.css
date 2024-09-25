@@ -6,21 +6,29 @@ body {
 }
 
 .header {
-
     color: white;
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 40vh;
+    width: 50%;
     text-align: center;
     padding: 5%;
+    background-color: black;
+    border-radius: 5%;
 }
 
-.header img{
-    margin-right: 0%;
+.header a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 5%;
+}
+
+
+.header img {
+    margin: 0%;
     float: left;
-    width: 25%;
-    height: 100%;
+    height: 0%;
+    width: 0%;
 }
 
 .main-body {
@@ -32,9 +40,13 @@ body {
     padding-bottom: 1%;
 }
 
-.main-body h1{
+.main-body h1,h2,h3{
     text-align: center;
     margin: 0px;
+}
+
+.main-body h1{
+    margin-bottom: 5%;
 }
 
 .main-body div {
@@ -84,6 +96,20 @@ body {
     padding: 0%;
 }
 
+.pc {
+    display: inline-flex;
+    text-align: center;
+    margin-top: 5%;
+    flex-basis: auto;
+}
+
+.pc a {
+    text-decoration: none;
+    color: black; 
+}
+.pc img{
+    width: 80%;
+}
 
 footer {
     float: right;
