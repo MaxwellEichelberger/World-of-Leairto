@@ -33,12 +33,13 @@ body {
 
 .main-body {
     background-color: white;
-    margin-left: 10%;
-    margin-right: 10%;
     border-radius: 3%;
     padding-top: 1%;
     padding-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
+
 
 .main-body h1,h2,h3{
     text-align: center;
@@ -97,20 +98,29 @@ body {
 }
 
 .pc {
-    display: inline-flex;
-    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
     margin-top: 5%;
-    flex-basis: auto;
+    gap: 0px;
+}
+
+.pc > div {
+    width: 200px;
+    height: 200px;
+}
+
+.pc img {
+    width: 200px;
+
 }
 
 .pc a {
     text-decoration: none;
-    color: black; 
+    color: black;
 }
-.pc img{
-    width: 80%;
-}
-
 footer {
     float: right;
     color: white;
