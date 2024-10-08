@@ -68,3 +68,30 @@
     text-decoration: none;
     color: black;
 }
+
+.items h6{
+    margin-top: -10px;
+}
+
+.imageCollection {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0px;
+}
+
+.imageCollection > div {
+    width: 20%;
+    margin-top: 5%;
+}
+
+.imageCollection img {
+    width: 100%;
+    border-radius: 5%;
+    border: solid black;
+}
+
+.imageCollection p{
+    font-style: italic;
+    font-size: 70%;
+}
