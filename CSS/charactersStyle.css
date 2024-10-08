@@ -1,0 +1,70 @@
+.character {
+    position: inline-block;
+    float: right;
+    background-color: white;
+    width: 20%;
+    border-right: solid black;
+    border-left:solid black;
+    border-bottom: solid black;
+    border-width: 1px;
+}
+
+.bio h4 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.bio p {
+    font-size: 80%;
+    margin: 0;
+}
+
+.character h2 {
+    position: inline-block;
+    padding-top: 3%;
+    color: white;
+    background-color: grey;
+    text-align: center;
+    margin: 0%;
+    border-top: solid black;
+    border-width: 1px;
+}
+
+.character img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+#pic-desc {
+    text-align: center;
+    font-style: italic;
+    padding: 0%;
+    font-size: 70%;
+}
+
+.pc {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0px;
+}
+
+.pc > div {
+    width: 150px;
+    height: 150px;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.pc img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+}
+.pc a {
+    text-decoration: none;
+    color: black;
+}

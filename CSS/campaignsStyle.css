@@ -1,0 +1,55 @@
+.mainCampaigns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0px;
+}
+
+.mainCampaigns > div {
+    width: 150px;
+    height: 150px;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.mainCampaigns img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    border: solid black;
+}
+.mainCampaigns a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-body .storyArcs h3{
+    margin-top: 3%;
+}
+
+.partyPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: solid black;
+    margin-bottom: 2%;
+}
+
+.partyPicInfo {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+.partyInfo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.partyInfo h3 {
+    border-bottom: solid black;
+    margin-bottom: 3%;
+}

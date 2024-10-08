@@ -1,0 +1,8 @@
+#homeMap{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border: solid black;
+    width: 50%;
+}

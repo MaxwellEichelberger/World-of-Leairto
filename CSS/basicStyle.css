@@ -1,0 +1,87 @@
+.header {
+    display: block;
+    text-align: center;
+    padding: 2%;
+    background-color: rgba(54,54,54,0.5);
+    margin-top: -2%;
+    margin-right: -2%;
+    margin-left: -2%
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    font-size: 125%;
+}
+
+.header h2 {
+    font-family: "MedievalSharp";
+    border: none;
+    margin: 1%;
+}
+
+.header .buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header .buttons a {
+    padding: 10px;
+    background-color: rgba(174, 174, 174, .5);
+    border-radius: 15%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+body {
+    background-image: url("/images/background.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.main-body {
+    background-color: white;
+    border-radius: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+
+@media screen and (min-width: 700px) {
+    .main-body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+.main-body h1,h2,h3{
+    text-align: center;
+    margin: 0px;
+}
+
+.main-body h1{
+    margin-bottom: 5%;
+}
+
+.main-body div {
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%
+}
+
+.main-body div h2 {
+    border-bottom: solid black;
+    border-width: 1px;
+}
+
+footer {
+    float: right;
+    color: white;
+}
+
+.medievalsharp-regular {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
