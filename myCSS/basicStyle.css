@@ -20,12 +20,12 @@
     margin: 1%;
 }
 
-.header .buttons {
+.header .links {
     display: flex;
     justify-content: space-evenly;
 }
 
-.header .buttons a {
+.header .links a {
     padding: 10px;
     background-color: rgba(174, 174, 174, .5);
     border-radius: 15%;
