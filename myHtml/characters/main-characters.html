@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <title>Leairto Wiki - Homepage</title>
   <link rel="stylesheet" href="\myCSS/basicStyle.css">
-  <link rel="stylesheet" href="\myCSS/indexStyle.css">
+  <!--Change Style Sheet Below for Every Main Section-->
+  <link rel="stylesheet" href="\myCSS/charactersStyle.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
@@ -20,8 +21,9 @@
 </head>
 
 <body>
+    <!--Below is the Main Menu Bar for Every Webpage-->
     <div class="header">
-        <a href="index.html"><h2>World of Leairto Wiki</h2></a>
+        <a href="\index.html"><h2>World of Leairto Wiki</h2></a>
         <div class="buttons">
             <a href="\myHtml/Campaigns/main-campaigns.html">Campaigns</a>
             <a href="\myHtml/characters/main-characters.html">Characters</a>
@@ -30,16 +32,18 @@
     </div>
 
     <!--Copy Everything From Here to the Top for Every Webpage-->
-    
+
     <div class="main-body">
-        <h2>Welcome to the</h2>
-        <h1>World of Leairto Wiki</h1>
-        <img src="\images\tempMap.jpg" id="homeMap">
-        <h3>Current Version: Attempt 1</h3>
-        <div class="changelog">
-            <h2>Changelog</h2>
-            <h3>Version 0.1</h3>
-            </div>    
+        <h1>Characters</h1>
+        <div class="characterList">
+            <h2>The Marked Couriers</h2>
+            <div class="pc">
+                <div><a href="./etienne.html"><img src="\images/EtienneIcon.png"><h3>Etienne</h3></a></div>
+                <div><a href="./kindly.html"><img src="\images/KindlyIcon.png"><h3>Kindly</h3></a></div>
+                <div><a href="./pavoli.html"><img src="\images/PavoliIcon.png"><h3>Pavoli</h3></a></div>
+                <div><a href="./selena.html"><img src="\images/SelenaIcon.png"><h3>Selena</h3></a></div>
+            </div>
+        </div>
     </div>
 </body>
 

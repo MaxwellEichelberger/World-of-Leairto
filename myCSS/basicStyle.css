@@ -33,12 +33,6 @@
     color: white;
 }
 
-body {
-    background-image: url("/images/background.png");
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
 
 .main-body {
     background-color: white;
